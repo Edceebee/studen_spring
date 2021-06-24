@@ -18,19 +18,16 @@ public class StudentConfig {
         return args -> {
             Student nonso = new Student(
                     "Nonso",
-                    25,
                     LocalDate.of(1996, Month.JANUARY, 21),
                     "edceebee@gmail.com"
             );
             Student chidi = new Student(
                     "Chidi",
-                    25,
                     LocalDate.of(1996, Month.JANUARY, 21),
                     "chidi@gmail.com"
             );
             Student gbenga = new Student(
                     "Gbenga",
-                    27,
                     LocalDate.of(1994, Month.JANUARY, 21),
                     "gbenga@gmail.com"
             );
@@ -40,7 +37,7 @@ public class StudentConfig {
                     List.of(nonso, chidi, gbenga)
             );
 
-            log.info("Objects-->{}", repository.findAll());
+//            log.info("Objects-->{}", repository.findAll());
         };
 
     }
