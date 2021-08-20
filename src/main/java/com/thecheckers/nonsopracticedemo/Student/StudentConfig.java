@@ -1,6 +1,5 @@
 package com.thecheckers.nonsopracticedemo.Student;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +9,7 @@ import java.time.Month;
 import java.util.List;
 
 @Configuration
-@Slf4j
+//@Slf4j
 public class StudentConfig {
 
     @Bean
